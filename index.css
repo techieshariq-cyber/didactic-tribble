@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { color-scheme: light; }
+html, body, #root { height: 100%; }
+body { @apply bg-white text-ink font-sans antialiased; font-variant-numeric: tabular-nums; -webkit-tap-highlight-color: transparent; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
